@@ -30,6 +30,11 @@ public class Wheel : MonoBehaviour
         isTouched = true;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isTouched = true;
+    }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
         isTouched = false;

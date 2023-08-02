@@ -43,8 +43,8 @@ public class Player_Controller : MonoBehaviour
             //Debug.Log("가속");
         }
         
-        //한 개의 바퀴라도 바닥과 떨어질 경우 회전
-        if (Input.GetMouseButton(0) && (!(Front_Wheel_istouching) || !(Rear_Wheel_istouching)))
+        //두 개의 바퀴가 바닥과 떨어질 경우 회전
+        if (Input.GetMouseButton(0) && (!(Front_Wheel_istouching) && !(Rear_Wheel_istouching)))
         {
             Rotate_Player();
            // Debug.Log("회전");
@@ -82,6 +82,12 @@ public class Player_Controller : MonoBehaviour
 
     public void Die()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }    
+
+    public void Add_Score()
+    {
+        Score++;
+        Debug.Log("현재 점수 : " + Score);
+    }
 }
