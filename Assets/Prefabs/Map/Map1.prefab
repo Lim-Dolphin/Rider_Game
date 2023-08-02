@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1239686694684151369}
   - component: {fileID: 5782645763443254313}
+  - component: {fileID: 2191271867219723701}
   - component: {fileID: 6458379206220354386}
   m_Layer: 0
   m_Name: Map1
@@ -39,7 +40,7 @@ Transform:
   - {fileID: 5918105808950126430}
   - {fileID: 6260919733890511150}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &5782645763443254313
 Rigidbody2D:
@@ -68,6 +69,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &2191271867219723701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2681040419164047968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c33f182f0c79d4eae7f07ca71b1b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Game_Manager: {fileID: 0}
 --- !u!66 &6458379206220354386
 CompositeCollider2D:
   m_ObjectHideFlags: 0

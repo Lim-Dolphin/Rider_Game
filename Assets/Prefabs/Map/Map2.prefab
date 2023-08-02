@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2718958062244980593}
   - component: {fileID: 8489179528042620579}
+  - component: {fileID: 3274035846881402668}
   - component: {fileID: 3738025792330926846}
   m_Layer: 0
   m_Name: Map2
@@ -33,13 +34,13 @@ Transform:
   - {fileID: 5460022257396802109}
   - {fileID: 8853558762686940832}
   - {fileID: 5938246311746614416}
-  - {fileID: 1657101453344113343}
+  - {fileID: 5025399262989814023}
   - {fileID: 4438994133824265504}
   - {fileID: 6240339242773489064}
   - {fileID: 4602204409266618659}
   - {fileID: 8318031646597226677}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &8489179528042620579
 Rigidbody2D:
@@ -68,6 +69,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &3274035846881402668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296941842457007571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c33f182f0c79d4eae7f07ca71b1b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Game_Manager: {fileID: 0}
 --- !u!66 &3738025792330926846
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -105,7 +119,7 @@ CompositeCollider2D:
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
-  - m_Collider: {fileID: 7045378457689464338}
+  - m_Collider: {fileID: 3640259377406776746}
     m_ColliderPaths:
     - - X: 440029184
         Y: -39219920
@@ -1478,14 +1492,14 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
---- !u!4 &1657101453344113343 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6571012700720764589, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
-  m_PrefabInstance: {fileID: 2201454540237971370}
-  m_PrefabAsset: {fileID: 0}
---- !u!60 &7045378457689464338 stripped
+--- !u!60 &3640259377406776746 stripped
 PolygonCollider2D:
   m_CorrespondingSourceObject: {fileID: 3173330885023074816, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+  m_PrefabInstance: {fileID: 2201454540237971370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5025399262989814023 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6571012700720764589, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
   m_PrefabInstance: {fileID: 2201454540237971370}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2467202846401756578
