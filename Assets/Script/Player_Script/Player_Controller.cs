@@ -83,7 +83,7 @@ public class Player_Controller : MonoBehaviour
         Player_rotate = 0.0f;
         if (playerRigidbody.velocity.magnitude < new Vector2(Max_Speed, 0).magnitude)
         {
-            playerRigidbody.AddForce(new Vector2(Speed, 0));
+            playerRigidbody.AddForce(transform.right * Speed);
         }
         else
         {

@@ -2662,6 +2662,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle_Middle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1362035739
+      objectReference: {fileID: 0}
     - target: {fileID: 6571012700720764589, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2873,6 +2881,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle_Middle
       objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1362035739
+      objectReference: {fileID: 0}
     - target: {fileID: 6571012700720764589, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2943,6 +2959,14 @@ PrefabInstance:
     - target: {fileID: 2692795569343744638, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
       propertyPath: m_Name
       value: Circle_Middle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1362035739
       objectReference: {fileID: 0}
     - target: {fileID: 6571012700720764589, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
       propertyPath: m_RootOrder
@@ -3088,6 +3112,14 @@ PrefabInstance:
     - target: {fileID: 2692795569343744638, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
       propertyPath: m_Name
       value: Circle_Middle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665545307098294021, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1362035739
       objectReference: {fileID: 0}
     - target: {fileID: 6571012700720764589, guid: 92eef05e30e59f944b1953f98872eab1, type: 3}
       propertyPath: m_RootOrder
