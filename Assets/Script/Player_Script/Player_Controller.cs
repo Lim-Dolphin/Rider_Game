@@ -53,6 +53,7 @@ public class Player_Controller : MonoBehaviour
             if(isFly && (Front_Wheel_istouching && Rear_Wheel_istouching))
             {
                 Score += Rotate_score;
+                isFly = false;
             }
 
             //최고 속도를 넘지 않고 두 바퀴가 바닥에 닿아있을 때만 가속
@@ -80,7 +81,7 @@ public class Player_Controller : MonoBehaviour
     //가속 함수
     void Accelerate_Player()
     {
-        Player_rotate = 0.0f;
+        Player_rotate = transform.eulerAngles.z;
         if (playerRigidbody.velocity.magnitude < new Vector2(Max_Speed, 0).magnitude)
         {
             playerRigidbody.AddForce(transform.right * Speed);
